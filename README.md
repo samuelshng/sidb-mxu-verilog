@@ -1,2 +1,3 @@
-# sidb-mxu-verilog
-A Verilog implementation of a matrix-multiply unit for silicon dangling bonds.
+# SiDB MXU Implemented in Verilog
+
+This repository contains the Verilog implementation of a processing element of the TPUv1's Matrix Multiply Unit (MXU).

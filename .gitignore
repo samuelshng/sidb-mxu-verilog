@@ -1,0 +1,99 @@
+# Simulation files
+*.vcd
+*.vvp
+*.fst
+*.lxt
+*.lxt2
+*.vdb
+*.vpd
+*.fsdb
+
+# Synthesis outputs
+*.edif
+*.json
+*.asc
+*.bit
+*.bin
+*.blif
+
+# Yosys backup files
+*.bak
+
+# Log files
+*.log
+*.jou
+*.rpt
+*.pb
+*.history
+
+# Generated timing reports
+*.twr
+*.twx
+
+# ModelSim/QuestaSim generated files
+work/
+transcript
+*.wlf
+*.do
+modelsim.ini
+
+# Vivado/ISE generated files
+*.cache/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.xpr
+*.jou
+*.log
+*.debug
+*.str
+*.tmp
+*.rst
+*.os
+*.js
+*.pb
+*.dcp
+*.xdc~
+*.ngc
+*.ngd
+*.ncd
+*.pad
+*.par
+*.pcf
+*.ptwx
+*.unroutes
+*.xpi
+*.xst
+*.map
+*.mrp
+*.ngm
+*.xrpt
+
+# System and IDE files
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build directories
+build/
+out/
+
+# Dependencies
+vendor/
+
+# Waveform viewer files
+*.gtkw 
+
+# Simulation files
+/simulation
+/tb_mxu_pe
+
+# Yosys generations
+synth/diagrams/**
+synth/yosys/*.v
+
+# Fiction generations
+*.fgl
