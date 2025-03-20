@@ -388,14 +388,6 @@ module tb_mxu_pe;
       $display("Test 4.4 passed: MAC operation passed");
     end
 
-    // ===== Test Case 5: Test MAC operation on large numbers =====
-    $display("\n===== Test Case 5: Test MAC operation on large numbers =====");
-
-    // Reset for a clean test
-    clear_mxu();
-
-    // TODO: implement
-
     // Summarize results
     $display("\n===== Test Summary =====");
     if (errors == 0) $display("All basic MXU_PE tests passed!");
