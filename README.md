@@ -2,6 +2,8 @@
 
 This repository contains the Verilog implementation of a processing element of the TPUv1's Matrix Multiply Unit (MXU).
 
+Please check the [Releases](https://github.com/samuelshng/sidb-mxu-verilog/releases) page for logic networks and layouts that were generated for the submitted paper.
+
 ## Dependencies
 
 **To test and synthesize the Verilog:**
